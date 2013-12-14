@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+    </head>
+    <body>
+        <h1>Projeto Cordova</h1>
+        <h3>Primeira Aula</h3>
+        <b>Plataforma</b>: <span id="plataforma"></span><br>
+        <b>Versão</b>: <span id="versao"></span><br>
+        <b>Modelo</b>: <span id="modelo"></span><br>
+        <b>ID</b>: <span id="id"></span><br>
+        <b>Versão Cordova</b>: <span id="cordova"></span><br>
+        <br>
+        <h4>Lista</h4>
+        <div id="contatos"></div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script>
+            document.addEventListener("deviceready", init);
+            
+            function init() {
+                document.getElementById("plataforma").innerHTML = device.platform;
+                document.getElementById("versao").innerHTML = device.version;
+                document.getElementById("modelo").innerHTML = device.model;
+                document.getElementById("id").innerHTML = device.uuid;
+                document.getElementById("cordova").innerHTML = device.cordova;
+                
+                var opcoes = new ContactFindOptions();
+                opcoes.multiple = true;
+                
+                var campos = [displayName, phoneNumbers];
+                
+                navigator.contacts.find(campos, listarContatos, erro, opcoes);
+                
+                function erro(msg) {
+                    alert("ERRO: " + msg);
+                }
+                
+                function listarContatos(contatos) {
+                    var lista = document.getElementById("contatos");
+                    
+                    lista.innerHTML = "carregando ...";
+                    for (var i = 0; i < contatos.length; i++) {
+                        lista.innerHTML += contatos[i].displayName + "<br>";
+                        lista.innerHTML += "<blockquote>";
+                        for (var j = 0; j < contatos[i].phoneNumbers.length; j++) {
+                            lista.innerHTML += contatos[i].phoneNumbers[j].value + "<br>"
+                        }
+                        lista.innerHTML += "</blockquote><br><br>";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
