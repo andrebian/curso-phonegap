@@ -29,6 +29,27 @@
         <script>
             document.addEventListener("deviceready", init);
             
+            /**
+                 * Exibe mensagens de erro gerais
+                 */
+                function erro(msg) {
+                    alert("ERRO!");
+                }
+                
+                
+                /**
+                 * Monta a posição
+                 */
+                function exibirPos( pos ) {
+                    var lat = pos.coords.latitude;
+                    var long = pos.coords.longitude;
+                    
+                    document.getElemntById("latitude").innerHTML = lat;
+                    document.getElemntById("longitude").innerHTML = long;
+                }
+            
+            
+            
             function init() {
                 document.getElementById("plataforma").innerHTML = device.platform;
                 document.getElementById("versao").innerHTML = device.version;
@@ -36,6 +57,7 @@
                 document.getElementById("id").innerHTML = device.uuid;
                 document.getElementById("cordova").innerHTML = device.cordova;
                 
+                navigator.geoLocation.getCurrentPosition(exibirPos, erro);
                 
                 
             }

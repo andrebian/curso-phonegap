@@ -1,4 +1,9 @@
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes.dex : \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/geolocation/GeoBroker.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener$LocationTimeoutTask.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/geolocation/NetworkListener.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/geolocation/GPSListener.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/device/Device$1.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/device/Device.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/contacts/ContactManager$3.class \
@@ -8,6 +13,8 @@
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/contacts/ContactAccessorSdk5.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/contacts/ContactManager$1.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/contacts/ContactAccessor$WhereOptions.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/devicemotion/AccelListener.class \
+/home/andre/Phonegap/Aula1/platforms/android/bin/classes/org/apache/cordova/devicemotion/AccelListener$1.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/br/com/projeto/R$drawable.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/br/com/projeto/BuildConfig.class \
 /home/andre/Phonegap/Aula1/platforms/android/bin/classes/br/com/projeto/R$xml.class \

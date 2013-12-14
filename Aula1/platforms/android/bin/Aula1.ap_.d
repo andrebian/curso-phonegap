@@ -22,9 +22,14 @@
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/cordova_plugins.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/js/index.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device-motion \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device-motion/www \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device-motion/www/Acceleration.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device-motion/www/accelerometer.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactError.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactFindOptions.js \
@@ -34,6 +39,11 @@
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/contacts.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactAddress.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactField.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/Position.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/PositionError.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/geolocation.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/img/logo.png \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/css/index.css \
 /home/andre/Phonegap/Aula1/platforms/android/bin/AndroidManifest.xml \
