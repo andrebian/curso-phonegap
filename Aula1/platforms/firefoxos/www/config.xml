@@ -15,4 +15,10 @@
     <feature name="Camera">
         <param name="firefoxos-package" value="Contacts" />
     </feature>
+    <feature name="Geolocation">
+        <param name="firefoxos-package" value="Geolocation" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="firefoxos-package" value="Accelerometer" />
+    </feature>
 </widget>

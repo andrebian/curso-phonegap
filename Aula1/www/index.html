@@ -14,8 +14,17 @@
         <b>ID</b>: <span id="id"></span><br>
         <b>Versão Cordova</b>: <span id="cordova"></span><br>
         <br>
-        <h4>Lista</h4>
-        <div id="contatos"></div>
+        <h4>Sensores</h4>
+        Latitude: <div id="latitude"></div>
+        <br />
+        Longitude: <div id="longitude"></div>
+        <br />
+        X: <span id="x"></span><br />
+        Y: <span id="y"></span><br />
+        Z: <span id="z"></span><br />
+        Direção: <span id="z"></span><br />
+        
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script>
             document.addEventListener("deviceready", init);
@@ -27,30 +36,8 @@
                 document.getElementById("id").innerHTML = device.uuid;
                 document.getElementById("cordova").innerHTML = device.cordova;
                 
-                var opcoes = new ContactFindOptions();
-                opcoes.multiple = true;
                 
-                var campos = [displayName, phoneNumbers];
                 
-                navigator.contacts.find(campos, listarContatos, erro, opcoes);
-                
-                function erro(msg) {
-                    alert("ERRO: " + msg);
-                }
-                
-                function listarContatos(contatos) {
-                    var lista = document.getElementById("contatos");
-                    
-                    lista.innerHTML = "carregando ...";
-                    for (var i = 0; i < contatos.length; i++) {
-                        lista.innerHTML += contatos[i].displayName + "<br>";
-                        lista.innerHTML += "<blockquote>";
-                        for (var j = 0; j < contatos[i].phoneNumbers.length; j++) {
-                            lista.innerHTML += contatos[i].phoneNumbers[j].value + "<br>"
-                        }
-                        lista.innerHTML += "</blockquote><br><br>";
-                    }
-                }
             }
         </script>
     </body>
