@@ -20,6 +20,7 @@
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/css \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/index.html \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/cordova_plugins.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/js/jquery.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/js/index.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.device-motion \
@@ -44,6 +45,10 @@
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/Position.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/PositionError.js \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/geolocation.js \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/img/glyphicons-halflings-white.png \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/img/glyphicons-halflings.png \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/img/logo.png \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/css/bootstrap-responsive.min.css \
+/home/andre/Phonegap/Aula1/platforms/android/assets/www/css/bootstrap.min.css \
 /home/andre/Phonegap/Aula1/platforms/android/assets/www/css/index.css \
 /home/andre/Phonegap/Aula1/platforms/android/bin/AndroidManifest.xml \
