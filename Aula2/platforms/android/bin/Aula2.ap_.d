@@ -1,0 +1,26 @@
+/home/andre/Phonegap/Aula2/platforms/android/bin/Aula2.ap_ \
+ : /home/andre/Phonegap/Aula2/platforms/android/res/xml/config.xml \
+/home/andre/Phonegap/Aula2/platforms/android/res/values/strings.xml \
+/home/andre/Phonegap/Aula2/platforms/android/res/drawable-xhdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/res/drawable-mdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/res/drawable/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/res/drawable-ldpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/res/drawable-hdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/bin/res/drawable-xhdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/bin/res/drawable-mdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/bin/res/drawable/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/bin/res/drawable-ldpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/bin/res/drawable-hdpi/icon.png \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/js \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/aula01.html \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/config.xml \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/cordova.js \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/img \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/css \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/index.html \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/cordova_plugins.js \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/js/index.js \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/img/logo.png \
+/home/andre/Phonegap/Aula2/platforms/android/assets/www/css/index.css \
+/home/andre/Phonegap/Aula2/platforms/android/bin/AndroidManifest.xml \

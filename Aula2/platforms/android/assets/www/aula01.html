@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="span5">
+                <h1>Projeto Cordova</h1>
+                <b>Plataforma</b>: <span id="plataforma"></span><br>
+                <b>Versão</b>: <span id="versao"></span><br>
+                <b>Modelo</b>: <span id="modelo"></span><br>
+                <b>ID</b>: <span id="id"></span><br>
+                <b>Versão Cordova</b>: <span id="cordova"></span><br>
+                <br>
+                <h4>Sensores</h4>
+                Latitude: <div id="latitude"></div>
+                <br />
+                Longitude: <div id="longitude"></div>
+                <br />
+                <input type="button" id="clique" class="btn-danger" value="Clique-me"/>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        
+        <script>
+            $ = jQuery;
+                
+            $('#clique').bind('click', function(){
+               alert("Clicou ÊêẼ");
+            });
+            
+            document.addEventListener("deviceready", init);
+
+            /**
+             * Exibe mensagens de erro gerais
+             */
+            function erro(msg) {
+                alert("ERRO!");
+            }
+
+
+            /**
+             * Monta a posição
+             */
+            function exibirPos(pos) {
+                var lat = pos.coords.latitude;
+                var long = pos.coords.longitude;
+
+                document.getElemntById("latitude").innerHTML = lat;
+                document.getElemntById("longitude").innerHTML = long;
+            }
+
+
+
+            function init() {
+                document.getElementById("plataforma").innerHTML = device.platform;
+                document.getElementById("versao").innerHTML = device.version;
+                document.getElementById("modelo").innerHTML = device.model;
+                document.getElementById("id").innerHTML = device.uuid;
+                document.getElementById("cordova").innerHTML = device.cordova;
+
+                navigator.geoLocation.getCurrentPosition(exibirPos, erro);
+
+            }
+        </script>
+    </body>
+</html>
